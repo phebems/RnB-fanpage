@@ -7,103 +7,137 @@
     <meta name="viewport" />
     <meta name="author" content="Phebe" />
     <title>Rhythm and Blues</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400&display=swap');
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400&display=swap");
     </style>
   </head>
   <body>
     <header>
       <h1>Rhythm and Blues (R'n'B)</h1>
     </header>
+    <div class="container">
+      <img
+        width="440px"
+        src="https://qph.fs.quoracdn.net/main-qimg-c63bfe2c8a12b4cf84ab29d8c6844bae.webp"
+      />
+      <p>
+        <b>Rhythm and blues</b>, also known as <b>R&B</b> or <b>R'n'B</b>, is a
+        genre of popular music that originated in African-American communities
+        in the <i>1940s</i>. It involves a combinination of jazz, gospel, and
+        blues influences.
+      </p>
+    </div>
 
-    <p>
-      <b>Rhythm and blues</b>, also known as <b>R&B</b> or <b>R'n'B</b>, is a genre of popular music
-      that originated in African-American communities in the <i>1940s</i>. It involves
-      a combinination of jazz, gospel, and blues influences.
-    </p>
+    <div class="container">
+      <b>Some facts about R'n'B:</b>
+      <ul>
+        <li>
+          In the commercial rhythm and blues music typical of the 1950s through
+          the 1970s, the bands usually consisted of piano, one or two guitars,
+          bass, drums, one or more saxophones, and sometimes background
+          vocalists.
+        </li>
+        <li>
+          R&B singers Michael Jackson and Whitney Houston are two of the
+          best-selling recording artists of all time.
+        </li>
+        <img
+          src="https://pbs.twimg.com/media/EmaREAeXYAkZMaC?format=jpg&name=large"
+          width="220"
+          height="300"
+        />
+        Don't Stop Til' You Get Enough -
+        <b>Michael Jackson</b>
+        <audio controls>
+          <source
+            src="Michael Jackson - Don’t Stop 'Til You Get Enough (Official Video).mp3"
+            type=""
+          />
+          Your browser does not support the audio element.
+        </audio>
+        <li>
+          The term was originally used by record companies to describe
+          recordings marketed predominantly to urban African Americans, at a
+          time when "urbane, rocking, jazz based music with a heavy, insistent
+          beat" was becoming more popular.
+        </li>
+      </ul>
 
+      <b
+        ><i
+          ><q
+            >Music is your own experience, your thoughts, your wisdom. If you
+            don't live it, it won't come out of your horn.</q
+          ></i
+        ></b
+      >
+      - Charlie Parker
+    </div>
 
+    <form id="form">
+      <label for="name"></label>Name
+      <input
+        type="
+      text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+      />
+      <br /><br />
+      <label for="email"></label>Email
+      <input
+        type="email"
+        id="name"
+        name="email"
+        placeholder="Enter your email"
+      />
+      <br />
 
-    <p></p><b>Some facts about R'n'B:</b></p>
-    <ul>
-      <li>
-        In the commercial rhythm and blues music typical of the 1950s through
-        the 1970s, the bands usually consisted of piano, one or two guitars,
-        bass, drums, one or more saxophones, and sometimes background vocalists.
-      </li>
-      <li>
-        R&B singers Michael Jackson and Whitney Houston are two of the
-        best-selling recording artists of all time.
-      </li>
-      <img src="https://pbs.twimg.com/media/EmaREAeXYAkZMaC?format=jpg&name=large" width="220" height="300">
-      <br> Don't Stop Til' You Get Enough - <b>Michael Jackson</b><br>
-      <audio controls>
-        <source src="Michael Jackson - Don’t Stop 'Til You Get Enough (Official Video).mp3" type="">
-        Your browser does not support the audio element.
-      </audio>
-      <li>
-        The term was originally used by record companies to describe recordings
-        marketed predominantly to urban African Americans, at a time when
-        "urbane, rocking, jazz based music with a heavy, insistent beat" was
-        becoming more popular.
-      </li>
-    </ul>
-
-    <b><i><q>Music is your own experience, your thoughts, your wisdom. If you don't
-      live it, it won't come out of your horn.</q></i></b>
-    - Charlie Parker
-    <br>
-    <br>
-
-
-    <form id=form>
-      <label for="name"></label>Name <input type="
-      text" id="name" name="name" placeholder="Enter your name">
-      <br><br>
-      <label for="email"></label>Email <input type="email" id="name" name="email" placeholder="Enter your email">
-      <br>
-        
       <p>How often do you listen to R'n'B music daily?</p>
-      
-      <input
-          name="music-hours"
-          value="never"
-          type="radio"
-      /><label>Never</label>
-      <br>
-      <input
-          name="music-hours"
-          value="less-hour"
-          type="radio"
-      /><label>Less than 1 hour</label>
-      <br>
-      <input
-          name="music-hours"
-          value="two-three"
-          type="radio"
-          class="input-radio"/><label>1 - 3 hours</label>
-      <br>
-      <input
-          name="music-hours"
-          value="three-five"
-          type="radio"
-      /><label>3 - 5 hours</label>
-      <br>
-      <input
-          name="music-hours"
-          value="five-plus"
-          type="radio"
-      /><label>More than 5 hours</label>
-      <br><br>
 
-      <label for="comment"></label>What is your favourite R'n'B song?<br><textarea id="comment" name="comment" placeholder=""></textarea>
-      <br>
+      <input name="music-hours" value="never" type="radio" /><label
+        >Never</label
+      >
+      <br />
+      <input name="music-hours" value="less-hour" type="radio" /><label
+        >Less than 1 hour</label
+      >
+      <br />
+      <input
+        name="music-hours"
+        value="two-three"
+        type="radio"
+        class="input-radio"
+      /><label>1 - 3 hours</label>
+      <br />
+      <input name="music-hours" value="three-five" type="radio" /><label
+        >3 - 5 hours</label
+      >
+      <br />
+      <input name="music-hours" value="five-plus" type="radio" /><label
+        >More than 5 hours</label
+      >
+      <br /><br />
+
+      <label for="comment"></label>What is your favourite R'n'B song?<br /><textarea
+        id="comment"
+        name="comment"
+        placeholder=""
+      ></textarea>
+      <br />
     </form>
 
     <h3>Contemporary R&B</h3>
-    <p>Bloody Waters - <b>H.E.R.</b> </p>
-    <iframe width="1230" height="692"  src="https://www.youtube.com/embed/_U2W_JJa_b4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
+    <p>Bloody Waters - <b>H.E.R.</b></p>
+    <iframe
+      width="1230"
+      height="692"
+      src="https://www.youtube.com/embed/_U2W_JJa_b4"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </body>
 </html>

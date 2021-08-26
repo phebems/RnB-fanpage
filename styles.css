@@ -2,7 +2,7 @@ body {
   font-family: "Urbanist", sans-serif;
 }
 
-@media screen (min-width: 480px) {
+@media (max-width: 480px) {
   h1,
   h2,
   h3,
@@ -16,5 +16,13 @@ body {
     font-size: 14px;
     background-color: #3d3b8e;
     color: FFF;
+  }
+}
+
+@media (min-width: 480px) {
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }
